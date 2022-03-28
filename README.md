@@ -24,7 +24,7 @@ A Discord Webhook System To Alert Developers To SSH Logins
 7. Make The Script Executable `sudo chmod +x /etc/profile.d/ssh-notify.sh`
 8. Add Your Discord Webhook Link In The Script
 Look For The Line WEBHOOK="" And Replace your_url With The Webhook Link. `sudo nano /etc/profile.d/ssh-notify.sh.`
-To Save: `ctrl +x`Type y
+To Save: `ctrl +x` Type y And Hit Enter
 9. Restart The SSH Service `sudo systemctl restart sshd`.
 10. Relogin In And Test It Works!
 
