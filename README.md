@@ -2,7 +2,7 @@
 A Discord Webhook System To Alert Developers To SSH Logins
 
 <p align="center">
-<img alt="SSH" src="https://cdn-icons-png.flaticon.com/512/5261/5261867.png" width="312" height="312" >
+<img alt="SSH" src="https://cdn-icons-png.flaticon.com/512/5261/5261867.png" width="112" height="112" >
 </p>
 
 A Discord Webhook System To Alert Developers To SSH Logins
