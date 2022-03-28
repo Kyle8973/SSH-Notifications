@@ -21,7 +21,7 @@
 
     IP=`echo $SSH_CLIENT | awk '{ ip = $1 } END { print ip }'`
 
-    curl -s "https://ipapi.co/${IP}/json/" > $TMPFILE
+    curl -s "https://ipapi.co/${IP}/json/" > $TMPFILE #Fetching User IP Data
 
     ISP=`cat $TMPFILE | jq .org | sed s/' '//g | sed s/'"'//g`
 
@@ -59,7 +59,7 @@ checkdir() {
     if [ -e $TMPFILE ]; then
         rm -fr $TMPFILE
     else
-        echo "le fichier $TMPFILE n'existe pas"
+        echo "$TMPFILE Not Found"
     fi
 }
 checkdir
