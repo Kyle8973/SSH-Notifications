@@ -1,7 +1,7 @@
 # SSH-Notifications
 A Discord Webhook System To Alert Developers To SSH Logins
 
-<p align="center">
+<p align="left">
 <img alt="SSH" src="https://cdn-icons-png.flaticon.com/512/5261/5261867.png" width="112" height="112" >
 </p>
 
