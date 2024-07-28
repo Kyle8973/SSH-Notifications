@@ -9,7 +9,7 @@
 
 # Config {
 
-        BOTNAME=YourServerName #Name Of Webhook
+        BOTNAME="YourServerName" #Name Of Webhook
         THUMBNAIL_URL="https://cdn-icons-png.flaticon.com/512/5261/5261867.png" #Thumbnail URL
         AVATAR_URL="https://icons.iconarchive.com/icons/blackvariant/button-ui-system-apps/512/Terminal-icon.png" #Bot Avatar / Footer Image
         WEBHOOK="" #Your-Webhook-URL
